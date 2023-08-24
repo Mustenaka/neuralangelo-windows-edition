@@ -1,6 +1,19 @@
 # Neuralangelo
-This is the official implementation of **Neuralangelo: High-Fidelity Neural Surface Reconstruction**.
 
+Not finished.
+
+## TO-DO
+- install third_party(colmap)
+- convert /projects/neuralangelo/scripts/ every .sh file to .ps1(powershell)
+- remove torchrun
+- remove wandb, just loacl recored it
+- try to fix some (.so) link (maybe)
+- try to use windows style CPU affinity instead of linux (import affinity, not use os.sched_getaffinity)
+- and more......
+
+This is the windows implementation of **Neuralangelo: High-Fidelity Neural Surface Reconstruction**.(**not** the offical edition, the offical edition is: https://github.com/NVlabs/neuralangelo)
+
+origin author:
 [Zhaoshuo Li](https://mli0603.github.io/),
 [Thomas Müller](https://tom94.net/),
 [Alex Evans](https://research.nvidia.com/person/alex-evans),
