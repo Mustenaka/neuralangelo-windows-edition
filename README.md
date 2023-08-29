@@ -13,7 +13,7 @@ Not finished.
 
 This is the windows implementation of **Neuralangelo: High-Fidelity Neural Surface Reconstruction**.(**not** the offical edition, the offical edition is: https://github.com/NVlabs/neuralangelo)
 
-### [Project page](https://research.nvidia.com/labs/dir/neuralangelo/) | [Paper](https://arxiv.org/abs/2306.03092/)
+### [Project page](https://research.nvidia.com/labs/dir/neuralangelo/) | [Paper](https://arxiv.org/abs/2306.03092/) | [Colab notebook](https://colab.research.google.com/drive/13u8DX9BNzQwiyPPCB7_4DbSxiQ5-_nGF)
 
 <img src="assets/teaser.gif">
 

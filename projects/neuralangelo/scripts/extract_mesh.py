@@ -65,7 +65,7 @@ def main():
     trainer.model.eval()
 
     # Set the coarse-to-fine levels.
-    trainer.current_iteration = trainer.checkpointer.resume_iteration
+    trainer.current_iteration = trainer.checkpointer.eval_iteration
     if cfg.model.object.sdf.encoding.coarse2fine.enabled:
         trainer.model_module.neural_sdf.set_active_levels(trainer.current_iteration)
         if cfg.model.object.sdf.gradient.mode == "numerical":
@@ -96,7 +96,7 @@ def main():
             print(f"colors: {len(mesh.visual.vertex_colors)}")
         # center and scale
         mesh.vertices = mesh.vertices * meta["sphere_radius"] + np.array(meta["sphere_center"])
-        mesh.remove_degenerate_faces()
+        mesh.update_faces(mesh.nondegenerate_faces())
         mesh.export(args.output_file)
 
 
