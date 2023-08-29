@@ -13,16 +13,6 @@ Not finished.
 
 This is the windows implementation of **Neuralangelo: High-Fidelity Neural Surface Reconstruction**.(**not** the offical edition, the offical edition is: https://github.com/NVlabs/neuralangelo)
 
-origin author:
-[Zhaoshuo Li](https://mli0603.github.io/),
-[Thomas Müller](https://tom94.net/),
-[Alex Evans](https://research.nvidia.com/person/alex-evans),
-[Russell H. Taylor](https://www.cs.jhu.edu/~rht/),
-[Mathias Unberath](https://mathiasunberath.github.io/),
-[Ming-Yu Liu](https://mingyuliu.net/),
-[Chen-Hsuan Lin](https://chenhsuanlin.bitbucket.io/)  
-IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023
-
 ### [Project page](https://research.nvidia.com/labs/dir/neuralangelo/) | [Paper](https://arxiv.org/abs/2306.03092/)
 
 <img src="assets/teaser.gif">
